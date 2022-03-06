@@ -1,0 +1,35 @@
+.card_custom_style {
+  background-color: rgb(17, 24, 33);
+  width: 16rem;
+  transition: all 0.3s ease;
+  /* martrgin: 10px; */
+  /* transform: scale(1.5); */
+}
+
+.card_custom_style:hover {
+  transform: scale(1.03);
+}
+
+.project_image {
+  height: 150px;
+}
+
+.project_name {
+  font-size: 25px;
+  font-weight: bold;
+  height: 50px;
+  align-self: center;
+}
+
+.project_name:hover {
+  text-decoration: underline;
+}
+
+.project_desc {
+  max-height: 90px;
+  overflow: hidden;
+}
+
+.link_btn {
+  width: 100px;
+}

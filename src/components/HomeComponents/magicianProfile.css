@@ -1,0 +1,49 @@
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+.cover {
+  margin-top: -50px;
+  height: 280px;
+  width: 100%;
+  overflow: hidden !important;
+  position: relative;
+  text-align: center;
+  background-size: cover !important;
+  background-position: center -320px !important;
+  background-image: url("https://media-exp1.licdn.com/dms/image/C4E1BAQH-vuYkiRH0pg/company-background_10000/0/1519799541280?e=2159024400&v=beta&t=wMhwqH1IjNHeCo0xpnd8rKL4Dv5MA2d63mZghzpMsKs");
+}
+h1 {
+  margin-top: 230px;
+  color: black;
+  font-size: 60px;
+}
+.text_on_cover_img {
+  position: absolute;
+  margin-top: -160px;
+  position: relative;
+  float: none;
+  color: blanchedalmond;
+}
+.loggedin_user {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -160px;
+  position: relative;
+}
+.user_profile {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid black;
+  float: left;
+  position: relative;
+  cursor: pointer !important;
+}
+.user_profile img {
+  width: 250px;
+  height: inherit;
+  position: relative;
+  float: left !important;
+}
